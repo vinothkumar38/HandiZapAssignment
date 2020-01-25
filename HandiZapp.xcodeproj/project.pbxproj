@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72D1390B23DC1FCE0058622E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1390A23DC1FCE0058622E /* AppDelegate.swift */; };
+		72D1390D23DC1FCE0058622E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1390C23DC1FCE0058622E /* SceneDelegate.swift */; };
+		72D1390F23DC1FCE0058622E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1390E23DC1FCE0058622E /* ViewController.swift */; };
+		72D1391223DC1FCE0058622E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D1391023DC1FCE0058622E /* Main.storyboard */; };
+		72D1391523DC1FCE0058622E /* HandiZapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72D1391323DC1FCE0058622E /* HandiZapp.xcdatamodeld */; };
+		72D1391723DC1FD30058622E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D1391623DC1FD30058622E /* Assets.xcassets */; };
+		72D1391A23DC1FD30058622E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D1391823DC1FD30058622E /* LaunchScreen.storyboard */; };
+		72D1392523DC1FD30058622E /* HandiZappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1392423DC1FD30058622E /* HandiZappTests.swift */; };
+		72D1393023DC1FD30058622E /* HandiZappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1392F23DC1FD30058622E /* HandiZappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72D1392123DC1FD30058622E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72D138FF23DC1FCE0058622E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72D1390623DC1FCE0058622E;
+			remoteInfo = HandiZapp;
+		};
+		72D1392C23DC1FD30058622E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72D138FF23DC1FCE0058622E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72D1390623DC1FCE0058622E;
+			remoteInfo = HandiZapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72D1390723DC1FCE0058622E /* HandiZapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandiZapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D1390A23DC1FCE0058622E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72D1390C23DC1FCE0058622E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72D1390E23DC1FCE0058622E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72D1391123DC1FCE0058622E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72D1391423DC1FCE0058622E /* HandiZapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HandiZapp.xcdatamodel; sourceTree = "<group>"; };
+		72D1391623DC1FD30058622E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72D1391923DC1FD30058622E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72D1391B23DC1FD30058622E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D1392023DC1FD30058622E /* HandiZappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandiZappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D1392423DC1FD30058622E /* HandiZappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandiZappTests.swift; sourceTree = "<group>"; };
+		72D1392623DC1FD30058622E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D1392B23DC1FD30058622E /* HandiZappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandiZappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D1392F23DC1FD30058622E /* HandiZappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandiZappUITests.swift; sourceTree = "<group>"; };
+		72D1393123DC1FD30058622E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72D1390423DC1FCE0058622E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D1391D23DC1FD30058622E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D1392823DC1FD30058622E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72D138FE23DC1FCE0058622E = {
+			isa = PBXGroup;
+			children = (
+				72D1390923DC1FCE0058622E /* HandiZapp */,
+				72D1392323DC1FD30058622E /* HandiZappTests */,
+				72D1392E23DC1FD30058622E /* HandiZappUITests */,
+				72D1390823DC1FCE0058622E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72D1390823DC1FCE0058622E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72D1390723DC1FCE0058622E /* HandiZapp.app */,
+				72D1392023DC1FD30058622E /* HandiZappTests.xctest */,
+				72D1392B23DC1FD30058622E /* HandiZappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D1390923DC1FCE0058622E /* HandiZapp */ = {
+			isa = PBXGroup;
+			children = (
+				72D1390A23DC1FCE0058622E /* AppDelegate.swift */,
+				72D1390C23DC1FCE0058622E /* SceneDelegate.swift */,
+				72D1390E23DC1FCE0058622E /* ViewController.swift */,
+				72D1391023DC1FCE0058622E /* Main.storyboard */,
+				72D1391623DC1FD30058622E /* Assets.xcassets */,
+				72D1391823DC1FD30058622E /* LaunchScreen.storyboard */,
+				72D1391B23DC1FD30058622E /* Info.plist */,
+				72D1391323DC1FCE0058622E /* HandiZapp.xcdatamodeld */,
+			);
+			path = HandiZapp;
+			sourceTree = "<group>";
+		};
+		72D1392323DC1FD30058622E /* HandiZappTests */ = {
+			isa = PBXGroup;
+			children = (
+				72D1392423DC1FD30058622E /* HandiZappTests.swift */,
+				72D1392623DC1FD30058622E /* Info.plist */,
+			);
+			path = HandiZappTests;
+			sourceTree = "<group>";
+		};
+		72D1392E23DC1FD30058622E /* HandiZappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72D1392F23DC1FD30058622E /* HandiZappUITests.swift */,
+				72D1393123DC1FD30058622E /* Info.plist */,
+			);
+			path = HandiZappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72D1390623DC1FCE0058622E /* HandiZapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D1393423DC1FD30058622E /* Build configuration list for PBXNativeTarget "HandiZapp" */;
+			buildPhases = (
+				72D1390323DC1FCE0058622E /* Sources */,
+				72D1390423DC1FCE0058622E /* Frameworks */,
+				72D1390523DC1FCE0058622E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandiZapp;
+			productName = HandiZapp;
+			productReference = 72D1390723DC1FCE0058622E /* HandiZapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72D1391F23DC1FD30058622E /* HandiZappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D1393723DC1FD30058622E /* Build configuration list for PBXNativeTarget "HandiZappTests" */;
+			buildPhases = (
+				72D1391C23DC1FD30058622E /* Sources */,
+				72D1391D23DC1FD30058622E /* Frameworks */,
+				72D1391E23DC1FD30058622E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72D1392223DC1FD30058622E /* PBXTargetDependency */,
+			);
+			name = HandiZappTests;
+			productName = HandiZappTests;
+			productReference = 72D1392023DC1FD30058622E /* HandiZappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72D1392A23DC1FD30058622E /* HandiZappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D1393A23DC1FD30058622E /* Build configuration list for PBXNativeTarget "HandiZappUITests" */;
+			buildPhases = (
+				72D1392723DC1FD30058622E /* Sources */,
+				72D1392823DC1FD30058622E /* Frameworks */,
+				72D1392923DC1FD30058622E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72D1392D23DC1FD30058622E /* PBXTargetDependency */,
+			);
+			name = HandiZappUITests;
+			productName = HandiZappUITests;
+			productReference = 72D1392B23DC1FD30058622E /* HandiZappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72D138FF23DC1FCE0058622E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "vinoth kumar";
+				TargetAttributes = {
+					72D1390623DC1FCE0058622E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					72D1391F23DC1FD30058622E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 72D1390623DC1FCE0058622E;
+					};
+					72D1392A23DC1FD30058622E = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 72D1390623DC1FCE0058622E;
+					};
+				};
+			};
+			buildConfigurationList = 72D1390223DC1FCE0058622E /* Build configuration list for PBXProject "HandiZapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72D138FE23DC1FCE0058622E;
+			productRefGroup = 72D1390823DC1FCE0058622E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72D1390623DC1FCE0058622E /* HandiZapp */,
+				72D1391F23DC1FD30058622E /* HandiZappTests */,
+				72D1392A23DC1FD30058622E /* HandiZappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72D1390523DC1FCE0058622E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D1391A23DC1FD30058622E /* LaunchScreen.storyboard in Resources */,
+				72D1391723DC1FD30058622E /* Assets.xcassets in Resources */,
+				72D1391223DC1FCE0058622E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D1391E23DC1FD30058622E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D1392923DC1FD30058622E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72D1390323DC1FCE0058622E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D1390F23DC1FCE0058622E /* ViewController.swift in Sources */,
+				72D1391523DC1FCE0058622E /* HandiZapp.xcdatamodeld in Sources */,
+				72D1390B23DC1FCE0058622E /* AppDelegate.swift in Sources */,
+				72D1390D23DC1FCE0058622E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D1391C23DC1FD30058622E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D1392523DC1FD30058622E /* HandiZappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72D1392723DC1FD30058622E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D1393023DC1FD30058622E /* HandiZappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72D1392223DC1FD30058622E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72D1390623DC1FCE0058622E /* HandiZapp */;
+			targetProxy = 72D1392123DC1FD30058622E /* PBXContainerItemProxy */;
+		};
+		72D1392D23DC1FD30058622E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72D1390623DC1FCE0058622E /* HandiZapp */;
+			targetProxy = 72D1392C23DC1FD30058622E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72D1391023DC1FCE0058622E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D1391123DC1FCE0058622E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72D1391823DC1FD30058622E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72D1391923DC1FD30058622E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72D1393223DC1FD30058622E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72D1393323DC1FD30058622E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72D1393523DC1FD30058622E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G56QYJ7ZRJ;
+				INFOPLIST_FILE = HandiZapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cumulations.HandiZapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72D1393623DC1FD30058622E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G56QYJ7ZRJ;
+				INFOPLIST_FILE = HandiZapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cumulations.HandiZapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		72D1393823DC1FD30058622E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G56QYJ7ZRJ;
+				INFOPLIST_FILE = HandiZappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cumulations.HandiZappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandiZapp.app/HandiZapp";
+			};
+			name = Debug;
+		};
+		72D1393923DC1FD30058622E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G56QYJ7ZRJ;
+				INFOPLIST_FILE = HandiZappTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cumulations.HandiZappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandiZapp.app/HandiZapp";
+			};
+			name = Release;
+		};
+		72D1393B23DC1FD30058622E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G56QYJ7ZRJ;
+				INFOPLIST_FILE = HandiZappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cumulations.HandiZappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandiZapp;
+			};
+			name = Debug;
+		};
+		72D1393C23DC1FD30058622E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G56QYJ7ZRJ;
+				INFOPLIST_FILE = HandiZappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cumulations.HandiZappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HandiZapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72D1390223DC1FCE0058622E /* Build configuration list for PBXProject "HandiZapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D1393223DC1FD30058622E /* Debug */,
+				72D1393323DC1FD30058622E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D1393423DC1FD30058622E /* Build configuration list for PBXNativeTarget "HandiZapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D1393523DC1FD30058622E /* Debug */,
+				72D1393623DC1FD30058622E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D1393723DC1FD30058622E /* Build configuration list for PBXNativeTarget "HandiZappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D1393823DC1FD30058622E /* Debug */,
+				72D1393923DC1FD30058622E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D1393A23DC1FD30058622E /* Build configuration list for PBXNativeTarget "HandiZappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D1393B23DC1FD30058622E /* Debug */,
+				72D1393C23DC1FD30058622E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72D1391323DC1FCE0058622E /* HandiZapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				72D1391423DC1FCE0058622E /* HandiZapp.xcdatamodel */,
+			);
+			currentVersion = 72D1391423DC1FCE0058622E /* HandiZapp.xcdatamodel */;
+			path = HandiZapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72D138FF23DC1FCE0058622E /* Project object */;
+}
