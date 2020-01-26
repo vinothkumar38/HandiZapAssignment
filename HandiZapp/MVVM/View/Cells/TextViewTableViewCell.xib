@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="66" id="KGk-i7-Jjw" customClass="TextViewTableViewCell" customModule="HandiZapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="66"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Form Description" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Eap-ek-Nux">
+                        <rect key="frame" x="16" y="16" width="296" height="42"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nL5-ey-RJq">
+                        <rect key="frame" x="16" y="0.0" width="35.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bpY-lX-sy6">
+                        <rect key="frame" x="16" y="62" width="296" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Dv7-gU-sVc"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bpY-lX-sy6" firstAttribute="top" secondItem="Eap-ek-Nux" secondAttribute="bottom" constant="4" id="93H-tD-Y0F"/>
+                    <constraint firstItem="Eap-ek-Nux" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="9eJ-3t-K3N"/>
+                    <constraint firstItem="bpY-lX-sy6" firstAttribute="width" secondItem="Eap-ek-Nux" secondAttribute="width" id="CIs-Ch-iMf"/>
+                    <constraint firstItem="Eap-ek-Nux" firstAttribute="top" secondItem="nL5-ey-RJq" secondAttribute="bottom" constant="-1" id="ETT-wT-vPN"/>
+                    <constraint firstItem="bpY-lX-sy6" firstAttribute="centerX" secondItem="Eap-ek-Nux" secondAttribute="centerX" id="Loi-ZP-Ufl"/>
+                    <constraint firstItem="nL5-ey-RJq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="e7T-IT-F5k"/>
+                    <constraint firstItem="nL5-ey-RJq" firstAttribute="leading" secondItem="Eap-ek-Nux" secondAttribute="leading" id="qGm-WV-4vr"/>
+                    <constraint firstAttribute="bottom" secondItem="Eap-ek-Nux" secondAttribute="bottom" constant="8" id="uye-jd-v11"/>
+                    <constraint firstAttribute="trailing" secondItem="Eap-ek-Nux" secondAttribute="trailing" constant="8" id="yql-tc-AqK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lineView" destination="bpY-lX-sy6" id="nwQ-3X-au5"/>
+                <outlet property="lineViewHeight" destination="Dv7-gU-sVc" id="0bz-RL-Ozs"/>
+                <outlet property="textView" destination="Eap-ek-Nux" id="mIH-Am-sug"/>
+                <outlet property="titleLabel" destination="nL5-ey-RJq" id="2Tp-x5-cuQ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -3,19 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F72D6964AB437784B97F653 /* Pods_HandiZapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 431789D5B836EE8E23FEEB03 /* Pods_HandiZapp.framework */; };
+		2692761568ED8066AAE84EB2 /* Pods_HandiZapp_HandiZappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2A9B5F2F80696926A4741C /* Pods_HandiZapp_HandiZappUITests.framework */; };
+		728C356323DCA61700BC4923 /* MyDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C355F23DCA61700BC4923 /* MyDatabaseManager.swift */; };
+		728C356423DCA61700BC4923 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C356023DCA61700BC4923 /* DatabaseProtocol.swift */; };
+		728C356523DCA61700BC4923 /* DataBaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C356123DCA61700BC4923 /* DataBaseModels.swift */; };
+		728C356623DCA61700BC4923 /* DBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C356223DCA61700BC4923 /* DBConstants.swift */; };
+		728C356A23DCA89F00BC4923 /* TextFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C356923DCA89F00BC4923 /* TextFieldType.swift */; };
+		728C357523DCD1BA00BC4923 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C357423DCD1BA00BC4923 /* Constants.swift */; };
+		728C357823DCD38F00BC4923 /* TextViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C357623DCD38F00BC4923 /* TextViewTableViewCell.swift */; };
+		728C357923DCD38F00BC4923 /* TextViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728C357723DCD38F00BC4923 /* TextViewTableViewCell.xib */; };
+		728C357B23DCD73300BC4923 /* TextFieldData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728C357A23DCD73200BC4923 /* TextFieldData.plist */; };
+		728C357D23DD7B2E00BC4923 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C357C23DD7B2E00BC4923 /* StringExtension.swift */; };
+		728C357F23DD933900BC4923 /* NewFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C357E23DD933900BC4923 /* NewFormViewController.swift */; };
+		728C358123DD94AC00BC4923 /* TableViewExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C358023DD94AB00BC4923 /* TableViewExtentions.swift */; };
+		728C358323DD9EAB00BC4923 /* NewFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C358223DD9EAB00BC4923 /* NewFormViewModel.swift */; };
+		728C358523DDB33C00BC4923 /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C358423DDB33C00BC4923 /* FormModel.swift */; };
+		728C358723DDB54600BC4923 /* DropInData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 728C358623DDB54600BC4923 /* DropInData.plist */; };
+		728C358B23DDDB7500BC4923 /* FormListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C358923DDDB7500BC4923 /* FormListTableViewCell.swift */; };
+		728C358C23DDDB7500BC4923 /* FormListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728C358A23DDDB7500BC4923 /* FormListTableViewCell.xib */; };
+		728C358F23DDE36300BC4923 /* FormListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C358E23DDE36300BC4923 /* FormListViewController.swift */; };
+		728C359123DDE41000BC4923 /* FormListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C359023DDE41000BC4923 /* FormListViewModel.swift */; };
 		72D1390B23DC1FCE0058622E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1390A23DC1FCE0058622E /* AppDelegate.swift */; };
-		72D1390D23DC1FCE0058622E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1390C23DC1FCE0058622E /* SceneDelegate.swift */; };
-		72D1390F23DC1FCE0058622E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1390E23DC1FCE0058622E /* ViewController.swift */; };
 		72D1391223DC1FCE0058622E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D1391023DC1FCE0058622E /* Main.storyboard */; };
 		72D1391523DC1FCE0058622E /* HandiZapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72D1391323DC1FCE0058622E /* HandiZapp.xcdatamodeld */; };
 		72D1391723DC1FD30058622E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D1391623DC1FD30058622E /* Assets.xcassets */; };
 		72D1391A23DC1FD30058622E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72D1391823DC1FD30058622E /* LaunchScreen.storyboard */; };
 		72D1392523DC1FD30058622E /* HandiZappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1392423DC1FD30058622E /* HandiZappTests.swift */; };
 		72D1393023DC1FD30058622E /* HandiZappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1392F23DC1FD30058622E /* HandiZappUITests.swift */; };
+		72D1394423DC28710058622E /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1394323DC28710058622E /* ViewControllerExtension.swift */; };
+		72D1394A23DC2E890058622E /* TextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1394823DC2E890058622E /* TextFieldTableViewCell.swift */; };
+		72D1394B23DC2E890058622E /* TextFieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72D1394923DC2E890058622E /* TextFieldTableViewCell.xib */; };
+		72D2DFF823DE125A00EE113B /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C358423DDB33C00BC4923 /* FormModel.swift */; };
+		72D2DFF923DE129F00EE113B /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C356023DCA61700BC4923 /* DatabaseProtocol.swift */; };
+		72D2DFFA23DE12AE00EE113B /* DBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C356223DCA61700BC4923 /* DBConstants.swift */; };
+		72D2DFFC23DE12E500EE113B /* DataBaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C356123DCA61700BC4923 /* DataBaseModels.swift */; };
+		72D2DFFD23DE142000EE113B /* HandiZapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72D1391323DC1FCE0058622E /* HandiZapp.xcdatamodeld */; };
+		72D2DFFE23DE159300EE113B /* MyDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728C355F23DCA61700BC4923 /* MyDatabaseManager.swift */; };
+		72D2DFFF23DE15C700EE113B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1390A23DC1FCE0058622E /* AppDelegate.swift */; };
+		8B40A114F952050F6249B2FD /* Pods_HandiZappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9B6AA606BFF258E60B4C9A /* Pods_HandiZappTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +66,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B9B6AA606BFF258E60B4C9A /* Pods_HandiZappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandiZappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		431789D5B836EE8E23FEEB03 /* Pods_HandiZapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandiZapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D66A3F9D2D33FD1F4BF575B /* Pods-HandiZapp-HandiZappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandiZapp-HandiZappUITests.debug.xcconfig"; path = "Target Support Files/Pods-HandiZapp-HandiZappUITests/Pods-HandiZapp-HandiZappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		608615FBF31A334DFD520438 /* Pods-HandiZappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandiZappTests.debug.xcconfig"; path = "Target Support Files/Pods-HandiZappTests/Pods-HandiZappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		728C355F23DCA61700BC4923 /* MyDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDatabaseManager.swift; sourceTree = "<group>"; };
+		728C356023DCA61700BC4923 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		728C356123DCA61700BC4923 /* DataBaseModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseModels.swift; sourceTree = "<group>"; };
+		728C356223DCA61700BC4923 /* DBConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBConstants.swift; sourceTree = "<group>"; };
+		728C356923DCA89F00BC4923 /* TextFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldType.swift; sourceTree = "<group>"; };
+		728C357423DCD1BA00BC4923 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		728C357623DCD38F00BC4923 /* TextViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTableViewCell.swift; sourceTree = "<group>"; };
+		728C357723DCD38F00BC4923 /* TextViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewTableViewCell.xib; sourceTree = "<group>"; };
+		728C357A23DCD73200BC4923 /* TextFieldData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TextFieldData.plist; sourceTree = "<group>"; };
+		728C357C23DD7B2E00BC4923 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		728C357E23DD933900BC4923 /* NewFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFormViewController.swift; sourceTree = "<group>"; };
+		728C358023DD94AB00BC4923 /* TableViewExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExtentions.swift; sourceTree = "<group>"; };
+		728C358223DD9EAB00BC4923 /* NewFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFormViewModel.swift; sourceTree = "<group>"; };
+		728C358423DDB33C00BC4923 /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		728C358623DDB54600BC4923 /* DropInData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DropInData.plist; sourceTree = "<group>"; };
+		728C358923DDDB7500BC4923 /* FormListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormListTableViewCell.swift; sourceTree = "<group>"; };
+		728C358A23DDDB7500BC4923 /* FormListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormListTableViewCell.xib; sourceTree = "<group>"; };
+		728C358E23DDE36300BC4923 /* FormListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormListViewController.swift; sourceTree = "<group>"; };
+		728C359023DDE41000BC4923 /* FormListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormListViewModel.swift; sourceTree = "<group>"; };
 		72D1390723DC1FCE0058622E /* HandiZapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandiZapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D1390A23DC1FCE0058622E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72D1390C23DC1FCE0058622E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72D1390E23DC1FCE0058622E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72D1391123DC1FCE0058622E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72D1391423DC1FCE0058622E /* HandiZapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HandiZapp.xcdatamodel; sourceTree = "<group>"; };
 		72D1391623DC1FD30058622E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +102,14 @@
 		72D1392B23DC1FD30058622E /* HandiZappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandiZappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72D1392F23DC1FD30058622E /* HandiZappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandiZappUITests.swift; sourceTree = "<group>"; };
 		72D1393123DC1FD30058622E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72D1394323DC28710058622E /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		72D1394823DC2E890058622E /* TextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		72D1394923DC2E890058622E /* TextFieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTableViewCell.xib; sourceTree = "<group>"; };
+		C6418C1AFD83C40333CC13FB /* Pods-HandiZapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandiZapp.release.xcconfig"; path = "Target Support Files/Pods-HandiZapp/Pods-HandiZapp.release.xcconfig"; sourceTree = "<group>"; };
+		C7F3F35C47097C589EB6CED5 /* Pods-HandiZapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandiZapp.debug.xcconfig"; path = "Target Support Files/Pods-HandiZapp/Pods-HandiZapp.debug.xcconfig"; sourceTree = "<group>"; };
+		C893873B73635495BF531BFA /* Pods-HandiZapp-HandiZappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandiZapp-HandiZappUITests.release.xcconfig"; path = "Target Support Files/Pods-HandiZapp-HandiZappUITests/Pods-HandiZapp-HandiZappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA2A9B5F2F80696926A4741C /* Pods_HandiZapp_HandiZappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HandiZapp_HandiZappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D933BA74575EE371FA3631 /* Pods-HandiZappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HandiZappTests.release.xcconfig"; path = "Target Support Files/Pods-HandiZappTests/Pods-HandiZappTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F72D6964AB437784B97F653 /* Pods_HandiZapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B40A114F952050F6249B2FD /* Pods_HandiZappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +133,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2692761568ED8066AAE84EB2 /* Pods_HandiZapp_HandiZappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		057AC7836FBE84B38D726DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				431789D5B836EE8E23FEEB03 /* Pods_HandiZapp.framework */,
+				DA2A9B5F2F80696926A4741C /* Pods_HandiZapp_HandiZappUITests.framework */,
+				0B9B6AA606BFF258E60B4C9A /* Pods_HandiZappTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		728C356B23DCA99A00BC4923 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				72D1391823DC1FD30058622E /* LaunchScreen.storyboard */,
+				72D1391023DC1FCE0058622E /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		728C356C23DCA9AA00BC4923 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				728C358623DDB54600BC4923 /* DropInData.plist */,
+				728C357A23DCD73200BC4923 /* TextFieldData.plist */,
+				72D1391323DC1FCE0058622E /* HandiZapp.xcdatamodeld */,
+				72D1391623DC1FD30058622E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		728C356D23DCAB9200BC4923 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				72D1390A23DC1FCE0058622E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		728C358823DDDB5600BC4923 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				72D1394823DC2E890058622E /* TextFieldTableViewCell.swift */,
+				72D1394923DC2E890058622E /* TextFieldTableViewCell.xib */,
+				728C357623DCD38F00BC4923 /* TextViewTableViewCell.swift */,
+				728C357723DCD38F00BC4923 /* TextViewTableViewCell.xib */,
+				728C358923DDDB7500BC4923 /* FormListTableViewCell.swift */,
+				728C358A23DDDB7500BC4923 /* FormListTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		728C358D23DDE34700BC4923 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				728C357E23DD933900BC4923 /* NewFormViewController.swift */,
+				728C358E23DDE36300BC4923 /* FormListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		72D138FE23DC1FCE0058622E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +207,8 @@
 				72D1392323DC1FD30058622E /* HandiZappTests */,
 				72D1392E23DC1FD30058622E /* HandiZappUITests */,
 				72D1390823DC1FCE0058622E /* Products */,
+				BE6841F40B17F856D082EDB6 /* Pods */,
+				057AC7836FBE84B38D726DFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +225,13 @@
 		72D1390923DC1FCE0058622E /* HandiZapp */ = {
 			isa = PBXGroup;
 			children = (
-				72D1390A23DC1FCE0058622E /* AppDelegate.swift */,
-				72D1390C23DC1FCE0058622E /* SceneDelegate.swift */,
-				72D1390E23DC1FCE0058622E /* ViewController.swift */,
-				72D1391023DC1FCE0058622E /* Main.storyboard */,
-				72D1391623DC1FD30058622E /* Assets.xcassets */,
-				72D1391823DC1FD30058622E /* LaunchScreen.storyboard */,
 				72D1391B23DC1FD30058622E /* Info.plist */,
-				72D1391323DC1FCE0058622E /* HandiZapp.xcdatamodeld */,
+				72D1394523DC29EC0058622E /* CustomTextField */,
+				72D1394223DC28530058622E /* Utils */,
+				72D1393D23DC27E10058622E /* MVVM */,
+				728C356D23DCAB9200BC4923 /* AppDelegate */,
+				728C356B23DCA99A00BC4923 /* StoryBoard */,
+				728C356C23DCA9AA00BC4923 /* Resources */,
 			);
 			path = HandiZapp;
 			sourceTree = "<group>";
@@ -131,6 +254,86 @@
 			path = HandiZappUITests;
 			sourceTree = "<group>";
 		};
+		72D1393D23DC27E10058622E /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				72D1393E23DC27EA0058622E /* Model */,
+				72D1393F23DC27F90058622E /* View */,
+				72D1394023DC28020058622E /* ViewModel */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		72D1393E23DC27EA0058622E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				728C357423DCD1BA00BC4923 /* Constants.swift */,
+				728C356923DCA89F00BC4923 /* TextFieldType.swift */,
+				72D1394123DC283E0058622E /* DBManager */,
+				728C358423DDB33C00BC4923 /* FormModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		72D1393F23DC27F90058622E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				728C358823DDDB5600BC4923 /* Cells */,
+				728C358D23DDE34700BC4923 /* ViewControllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		72D1394023DC28020058622E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				728C358223DD9EAB00BC4923 /* NewFormViewModel.swift */,
+				728C359023DDE41000BC4923 /* FormListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		72D1394123DC283E0058622E /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				728C356123DCA61700BC4923 /* DataBaseModels.swift */,
+				728C356023DCA61700BC4923 /* DatabaseProtocol.swift */,
+				728C356223DCA61700BC4923 /* DBConstants.swift */,
+				728C355F23DCA61700BC4923 /* MyDatabaseManager.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		72D1394223DC28530058622E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				728C358023DD94AB00BC4923 /* TableViewExtentions.swift */,
+				72D1394323DC28710058622E /* ViewControllerExtension.swift */,
+				728C357C23DD7B2E00BC4923 /* StringExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		72D1394523DC29EC0058622E /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		BE6841F40B17F856D082EDB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7F3F35C47097C589EB6CED5 /* Pods-HandiZapp.debug.xcconfig */,
+				C6418C1AFD83C40333CC13FB /* Pods-HandiZapp.release.xcconfig */,
+				4D66A3F9D2D33FD1F4BF575B /* Pods-HandiZapp-HandiZappUITests.debug.xcconfig */,
+				C893873B73635495BF531BFA /* Pods-HandiZapp-HandiZappUITests.release.xcconfig */,
+				608615FBF31A334DFD520438 /* Pods-HandiZappTests.debug.xcconfig */,
+				E3D933BA74575EE371FA3631 /* Pods-HandiZappTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +341,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72D1393423DC1FD30058622E /* Build configuration list for PBXNativeTarget "HandiZapp" */;
 			buildPhases = (
+				9CC074B9782C2BE224358965 /* [CP] Check Pods Manifest.lock */,
 				72D1390323DC1FCE0058622E /* Sources */,
 				72D1390423DC1FCE0058622E /* Frameworks */,
 				72D1390523DC1FCE0058622E /* Resources */,
+				4CBA8FC7BB609EBEBF16B7BC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +360,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72D1393723DC1FD30058622E /* Build configuration list for PBXNativeTarget "HandiZappTests" */;
 			buildPhases = (
+				BE343E505C1A34E874F55BAF /* [CP] Check Pods Manifest.lock */,
 				72D1391C23DC1FD30058622E /* Sources */,
 				72D1391D23DC1FD30058622E /* Frameworks */,
 				72D1391E23DC1FD30058622E /* Resources */,
@@ -173,9 +379,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72D1393A23DC1FD30058622E /* Build configuration list for PBXNativeTarget "HandiZappUITests" */;
 			buildPhases = (
+				2E5266DBE789241BB8F7E931 /* [CP] Check Pods Manifest.lock */,
 				72D1392723DC1FD30058622E /* Sources */,
 				72D1392823DC1FD30058622E /* Frameworks */,
 				72D1392923DC1FD30058622E /* Resources */,
+				48CDC6BBFFC87F677F106E1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,8 +444,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				72D1391A23DC1FD30058622E /* LaunchScreen.storyboard in Resources */,
+				728C357923DCD38F00BC4923 /* TextViewTableViewCell.xib in Resources */,
 				72D1391723DC1FD30058622E /* Assets.xcassets in Resources */,
 				72D1391223DC1FCE0058622E /* Main.storyboard in Resources */,
+				728C357B23DCD73300BC4923 /* TextFieldData.plist in Resources */,
+				728C358C23DDDB7500BC4923 /* FormListTableViewCell.xib in Resources */,
+				72D1394B23DC2E890058622E /* TextFieldTableViewCell.xib in Resources */,
+				728C358723DDB54600BC4923 /* DropInData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,15 +470,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E5266DBE789241BB8F7E931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandiZapp-HandiZappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48CDC6BBFFC87F677F106E1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HandiZapp-HandiZappUITests/Pods-HandiZapp-HandiZappUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HandiZapp-HandiZappUITests/Pods-HandiZapp-HandiZappUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HandiZapp-HandiZappUITests/Pods-HandiZapp-HandiZappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CBA8FC7BB609EBEBF16B7BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HandiZapp/Pods-HandiZapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HandiZapp/Pods-HandiZapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HandiZapp/Pods-HandiZapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CC074B9782C2BE224358965 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandiZapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE343E505C1A34E874F55BAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HandiZappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		72D1390323DC1FCE0058622E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72D1390F23DC1FCE0058622E /* ViewController.swift in Sources */,
+				728C356523DCA61700BC4923 /* DataBaseModels.swift in Sources */,
+				728C357523DCD1BA00BC4923 /* Constants.swift in Sources */,
+				72D1394423DC28710058622E /* ViewControllerExtension.swift in Sources */,
+				728C358B23DDDB7500BC4923 /* FormListTableViewCell.swift in Sources */,
+				728C356323DCA61700BC4923 /* MyDatabaseManager.swift in Sources */,
+				728C357823DCD38F00BC4923 /* TextViewTableViewCell.swift in Sources */,
 				72D1391523DC1FCE0058622E /* HandiZapp.xcdatamodeld in Sources */,
 				72D1390B23DC1FCE0058622E /* AppDelegate.swift in Sources */,
-				72D1390D23DC1FCE0058622E /* SceneDelegate.swift in Sources */,
+				728C358F23DDE36300BC4923 /* FormListViewController.swift in Sources */,
+				72D1394A23DC2E890058622E /* TextFieldTableViewCell.swift in Sources */,
+				728C357F23DD933900BC4923 /* NewFormViewController.swift in Sources */,
+				728C356423DCA61700BC4923 /* DatabaseProtocol.swift in Sources */,
+				728C358323DD9EAB00BC4923 /* NewFormViewModel.swift in Sources */,
+				728C359123DDE41000BC4923 /* FormListViewModel.swift in Sources */,
+				728C358523DDB33C00BC4923 /* FormModel.swift in Sources */,
+				728C358123DD94AC00BC4923 /* TableViewExtentions.swift in Sources */,
+				728C356A23DCA89F00BC4923 /* TextFieldType.swift in Sources */,
+				728C357D23DD7B2E00BC4923 /* StringExtension.swift in Sources */,
+				728C356623DCA61700BC4923 /* DBConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +604,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D2DFFE23DE159300EE113B /* MyDatabaseManager.swift in Sources */,
+				72D2DFFD23DE142000EE113B /* HandiZapp.xcdatamodeld in Sources */,
+				72D2DFF923DE129F00EE113B /* DatabaseProtocol.swift in Sources */,
+				72D2DFFF23DE15C700EE113B /* AppDelegate.swift in Sources */,
+				72D2DFF823DE125A00EE113B /* FormModel.swift in Sources */,
+				72D2DFFA23DE12AE00EE113B /* DBConstants.swift in Sources */,
 				72D1392523DC1FD30058622E /* HandiZappTests.swift in Sources */,
+				72D2DFFC23DE12E500EE113B /* DataBaseModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,11 +774,13 @@
 		};
 		72D1393523DC1FD30058622E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F3F35C47097C589EB6CED5 /* Pods-HandiZapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G56QYJ7ZRJ;
 				INFOPLIST_FILE = HandiZapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +794,13 @@
 		};
 		72D1393623DC1FD30058622E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6418C1AFD83C40333CC13FB /* Pods-HandiZapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G56QYJ7ZRJ;
 				INFOPLIST_FILE = HandiZapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,6 +814,7 @@
 		};
 		72D1393823DC1FD30058622E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608615FBF31A334DFD520438 /* Pods-HandiZappTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +837,7 @@
 		};
 		72D1393923DC1FD30058622E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D933BA74575EE371FA3631 /* Pods-HandiZappTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +860,7 @@
 		};
 		72D1393B23DC1FD30058622E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D66A3F9D2D33FD1F4BF575B /* Pods-HandiZapp-HandiZappUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +881,7 @@
 		};
 		72D1393C23DC1FD30058622E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C893873B73635495BF531BFA /* Pods-HandiZapp-HandiZappUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

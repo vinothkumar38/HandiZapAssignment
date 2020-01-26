@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>rate</key>
+	<array>
+		<string>No Preference</string>
+		<string>Fixed Budget</string>
+		<string>Hourly Rate</string>
+	</array>
+	<key>paymentMethod</key>
+	<array>
+		<string>No Preference</string>
+		<string>E-payment</string>
+		<string>Cash</string>
+	</array>
+	<key>jobTerm</key>
+	<array>
+		<string>No Preferance</string>
+		<string>Recurring Job</string>
+		<string>Same Day Job</string>
+		<string>Multi Day Job</string>
+	</array>
+</dict>
+</plist>
